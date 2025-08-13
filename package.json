@@ -1,0 +1,28 @@
+{
+  "name": "seat-monitor",
+  "version": "1.0.0",
+  "description": "Console app to monitor sold seats from booking service API",
+  "main": "seat-monitor.js",
+  "bin": {
+    "seat-monitor": "./seat-monitor.js"
+  },
+  "scripts": {
+    "start": "node seat-monitor.js",
+    "install-global": "npm install -g ."
+  },
+  "dependencies": {
+    "jmespath": "^0.16.0"
+  },
+  "keywords": [
+    "monitor",
+    "seats",
+    "booking",
+    "api",
+    "console"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
